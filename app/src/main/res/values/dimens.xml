@@ -4,5 +4,8 @@
     <dimen name="spinner_width">120dp</dimen>
     <dimen name="goals_edittext_textsize">12sp</dimen>
     <dimen name="stats_entry_tesixtze">12sp</dimen>
+    <dimen name="stats_entry_padding_start">5sp</dimen>
+    <dimen name="stats_header_margin">5sp</dimen>
+    <dimen name="stats_header_padding_drawable">5sp</dimen>
 
 </resources>

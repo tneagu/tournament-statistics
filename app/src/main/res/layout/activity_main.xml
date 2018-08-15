@@ -9,35 +9,27 @@
 
 
     <Button
+        style="@style/MainButtons"
         android:id="@+id/btn_add_team"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
         android:text="@string/add_team"
-        android:layout_weight="1"
         android:background="@color/addTeam"/>
 
     <Button
+        style="@style/MainButtons"
         android:id="@+id/btn_add_score"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
         android:text="@string/add_score"
-        android:layout_weight="1"
         android:background="@color/addScore"/>
 
     <Button
+        style="@style/MainButtons"
         android:id="@+id/btn_statistics"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
         android:text="@string/show_statistics"
-        android:layout_weight="1"
         android:background="@color/showStatistics"/>
 
     <Button
+        style="@style/MainButtons"
         android:id="@+id/btn_reset"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
         android:text="@string/reset_statistics"
-        android:layout_weight="1"
         android:background="@color/reset"/>
 
 </LinearLayout>
