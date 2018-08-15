@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Score Statistics</string>
+    <string name="example">Example</string>
+    <string name="example_number">12</string>
+    <string name="add_team">Add Team</string>
+    <string name="add_score">Add Score</string>
+    <string name="show_statistics">Show Statistics</string>
+    <string name="reset_statistics">Reset Statistics</string>
+    <string name="team_name">Team Name:</string>
+    <string name="enter_team_name">Enter team name</string>
+    <string name="save">Save</string>
+    <string name="team_divider">-</string>
+    <string name="statistics">Statistics</string>
+    <string name="score_table">Score table</string>
+    <string name="enter_goals">Number of goals</string>
+    <string name="alert_not_enough_teams">You need at least two teams in order to add a score</string>
+    <string name="alert_not_enough_teams_stats">You need at least two teams to see statistics</string>
+    <string name="alert_data_reset">All teams and matches were deleted</string>
+    <string name="team_name_stats">Team Name</string>
+    <string name="matches">Matches</string>
+    <string name="Wins">Wins</string>
+    <string name="Scored">Scored</string>
+    <string name="Conceived">Conceived</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/StatsEntry"/>
+
+    <TextView
+        android:id="@+id/matches"
+        style="@style/StatsEntry"/>
+
+    <TextView
+        android:id="@+id/wins"
+        style="@style/StatsEntry"/>
+
+    <TextView
+        android:id="@+id/scored"
+        style="@style/StatsEntry"/>
+
+    <TextView
+        android:id="@+id/conceived"
+        style="@style/StatsEntry"/>
+
+</LinearLayout>

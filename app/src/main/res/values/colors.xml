@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="addTeam">#FF4081</color>
+    <color name="addScore">#6b3ace</color>
+    <color name="showStatistics">#bfc6ea</color>
+    <color name="reset">#faee01</color>
+    <color name="save">#49b9fa</color>
+    <color name="white">#ffffff</color>
+    <color name="firstRecyclerColor">#e9e9e9</color>
+    <color name="secondRecyclerColor">#cbcbcb</color>
+    <color name="notAvailable">#b8b8b8</color>
+</resources>

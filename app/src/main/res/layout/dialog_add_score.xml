@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <Spinner
+        android:id="@+id/spinner_home_team"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="textEnd"
+        android:layout_width="@dimen/spinner_width"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/team_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/spinner_home_team"
+        android:textSize="@dimen/dialog_title"
+        android:layout_toEndOf="@id/spinner_home_team"
+        android:layout_toStartOf="@id/spinner_away_team"
+        android:gravity="center"
+        android:text="@string/team_divider"/>
+
+    <Spinner
+        android:id="@+id/spinner_away_team"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:layout_width="@dimen/spinner_width"
+        android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+        android:id="@+id/et_home_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/spinner_home_team"
+        android:layout_alignParentStart="true"
+        android:inputType="number"
+        android:gravity="center"
+        android:textSize="@dimen/goals_edittext_textsize"
+        android:hint="@string/enter_goals"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dialog_title"
+        android:layout_alignBaseline="@id/et_home_score"
+        android:layout_toEndOf="@id/et_home_score"
+        android:layout_toStartOf="@id/et_away_score"
+        android:gravity="center"
+        android:text="@string/team_divider"/>
+
+
+    <EditText
+        android:id="@+id/et_away_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/spinner_away_team"
+        android:layout_alignParentEnd="true"
+        android:inputType="number"
+        android:gravity="center"
+        android:textSize="@dimen/goals_edittext_textsize"
+        android:hint="@string/enter_goals"/>
+
+    <Button
+        android:id="@+id/btn_save_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/et_home_score"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save"
+        android:background="@color/save"/>
+
+
+
+</RelativeLayout>

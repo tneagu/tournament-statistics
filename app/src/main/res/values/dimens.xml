@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_title">18sp</dimen>
+    <dimen name="spinner_width">120dp</dimen>
+    <dimen name="goals_edittext_textsize">12sp</dimen>
+    <dimen name="stats_entry_tesixtze">12sp</dimen>
+
+</resources>
